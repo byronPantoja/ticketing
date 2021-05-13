@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/dbp/.nvm/versions/node/v14.15.4/bin/node /Users/dbp/.nvm/versions/node/v14.15.4/bin/yarn add typscript ts-node-dev express @types/express
+
+PATH: 
+  /Users/dbp/.nvm/versions/node/v14.15.4/bin:/Users/dbp/opt/anaconda3/condabin:/Users/dbp/.asdf/shims:/usr/local/opt/asdf/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/dbp/Developer/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typscript: Not found
+      at Request.params.callback [as _callback] (/Users/dbp/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/dbp/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/dbp/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/dbp/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
